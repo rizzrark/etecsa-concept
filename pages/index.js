@@ -2,6 +2,7 @@ import Head from "next/head";
 import { getSortedDocsData } from "@/lib/docs";
 // components
 import Search from "@/components/Search";
+import OtherSearch from "@/components/OtherSearch";
 
 export default function Home({ allDocsData }) {
   return (
