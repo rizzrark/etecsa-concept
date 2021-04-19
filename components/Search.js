@@ -6,8 +6,6 @@ const Search = ({ pageDocs }) => {
     keys: ["title"],
   });
 
-  console.log(fuse.search("Two Forms of Pre-rendering"));
-
   const [query, setQuery] = useState("");
 
   function handleOnChange({ currentTarget = {} }) {
@@ -18,7 +16,7 @@ const Search = ({ pageDocs }) => {
   const results = fuse.search(query);
   const searchResuls = results.map((results) => results.item);
   return (
-    <div className="max-w-sm p-4 rounded-lg ">
+    <div className="relative max-w-sm p-4 rounded-lg">
       <div className="px-4 pt-4 pb-4 space-y-4 sm:px-6 lg:px-4 xl:px-6 sm:pb-6 lg:pb-4 xl:pb-6">
         <form className="relative">
           <svg
@@ -44,11 +42,12 @@ const Search = ({ pageDocs }) => {
         </form>
       </div>
       {/* Drop  */}
-      <ul className="w-full mt-2 space-y-2">
+      <ul className="absolute left-0 w-full p-0 m-0 space-y-2 list-none bg-white border divide-y rounded shadow-md md:right-0 top-100 z-2">
         {searchResuls.map(({ title, id, link }) => (
           <li
             key={id}
-            className="relative px-3 py-2 bg-white border-gray-100 rounded-lg shadow-lg cursor-pointer hover:bg-yellow-50 hover:text-gray-900"
+            // className="px-3 py-2 bg-white border-gray-100 rounded-lg shadow-lg cursor-pointer hover:bg-yellow-50 hover:text-gray-900"
+            className="px-3 py-2"
           >
             <a className="block" href={link}>
               {title}

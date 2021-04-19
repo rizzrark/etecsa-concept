@@ -1,5 +1,3 @@
-const { default: Search } = require("@/components/Search");
-
 const About = () => {
   return (
     <section>
