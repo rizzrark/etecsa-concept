@@ -1,4 +1,4 @@
-import { getAllDocSlugs, getDocdata } from "@/lib/docs";
+import { getAllDocSlugs, getDocdata } from "@/lib/mdxContent";
 import matter from "gray-matter";
 
 export default function Docs({ source, frontMatter }) {

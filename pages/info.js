@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getSortedDocsData } from "@/lib/docs";
+import { getSortedDocsData } from "@/lib/mdxContent";
 
 const DocsIndex = ({ allDocsData }) => {
   console.log(allDocsData.slug);
