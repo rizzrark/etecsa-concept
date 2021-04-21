@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="flex flex-col w-full mt-8 mb-4 text-gray-700 lg:flex-row">
+    <div className="flex flex-col w-full my-16 text-gray-700 lg:flex-row">
       <div className="flex flex-col w-full lg:w-[50%] order-2 lg:order-1">
         <div className="self-center">
           <div className="text-4xl font-bold lg:text-5xl xl:text-6xl">
@@ -14,10 +14,10 @@ const Hero = () => {
           </div>
           <div className="mt-8 mb-4 ">
             <a
-              href=""
-              className="flex-none uppercase tracking-wide px-6 py-3 text-xl w-fulll font-bold  text-white transition-colors duration-200 bg-[#3553B7] border border-transparent sm:w-auto hover:bg-gray-700 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none"
+              href="http://www.etecsa.cu/  "
+              className="flex-none uppercase tracking-wider px-5 py-3  shadow-lg text-lg w-fulll font-bold  text-white transition-colors duration-200 bg-[#3553B7] border border-transparent sm:w-auto hover:bg-gray-700 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none"
             >
-              Comencemos
+              Comienza
             </a>
           </div>
         </div>

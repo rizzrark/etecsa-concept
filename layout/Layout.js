@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import TopHeader from "@/components/TopHeader";
 const Layout = ({ children }) => {
   return (
@@ -7,6 +8,10 @@ const Layout = ({ children }) => {
           <TopHeader />
         </div>
         <div className="mx-6 my-4 md:mx-20 lg:mx-24 xl:mx-40">{children}</div>
+
+        <div className="border-t-2 boder-[#EFF1F7]">
+          <Footer />
+        </div>
       </main>
     </>
   );

@@ -2,7 +2,6 @@ import Link from "next/link";
 import { getSortedDocsData } from "@/lib/mdxContent";
 
 const DocsIndex = ({ allDocsData }) => {
-  console.log(allDocsData.slug);
   return (
     <>
       <section className="inline-block p-4 bg-white shadow-lg rounded-2xl ">

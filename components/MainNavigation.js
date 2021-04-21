@@ -1,28 +1,22 @@
-import Link from "next/link";
+import { useState } from "react";
+import NavItem from "./NavItem";
 
 const MainNavigation = () => {
+  const [isActive, setIsActive] = useState(false);
   return (
     <ul className="items-center hidden space-x-2 text-sm font-bold tracking-wide text-gray-700 md:space-x-4 md:text-xl md:flex">
-      <li className="">
-        <Link href="/">
-          <a>Inicio</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/">
-          <a>Información</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/">
-          <a>Acerca</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/">
-          <a>Contacto</a>
-        </Link>
-      </li>
+      <NavItem href="http://www.etecsa.cu" isActive={isActive}>
+        Inicio
+      </NavItem>
+      <NavItem href="http://www.etecsa.cu/inicio/" isActive={isActive}>
+        Información
+      </NavItem>
+      <NavItem href="http://www.etecsa.cu/inicio/" isActive={isActive}>
+        Acerca
+      </NavItem>
+      <NavItem href="http://www.etecsa.cu/inicio/" isActive={isActive}>
+        Contacto
+      </NavItem>
     </ul>
   );
 };

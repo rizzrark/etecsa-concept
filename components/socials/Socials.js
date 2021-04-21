@@ -1,14 +1,12 @@
-const Socials = () => {
-  const height = 35;
-  const width = 35;
+const Socials = ({ iconsH, iconsW, color }) => {
   return (
     <ul className="flex space-x-3 text-gray-300 ">
       <li>
-        <a href="/">
+        <a href="/https://www.facebook.com/etecsa.cu/">
           <svg
             className="fill-current"
-            height={height}
-            width={width}
+            height={iconsH}
+            width={iconsW}
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -19,7 +17,7 @@ const Socials = () => {
               />
               <path
                 d="M355.65 330L367 256h-71v-48.022c0-20.245 9.917-39.978 41.719-39.978H370v-63s-29.297-5-57.305-5C254.219 100 216 135.44 216 199.6V256h-65v74h65v178.89a257.912 257.912 0 0 0 40 3.11c13.608 0 26.966-1.065 40-3.11V330h59.65z"
-                fill="#3553B7"
+                fill={color}
                 fillRule="nonzero"
               />
             </g>
@@ -27,11 +25,11 @@ const Socials = () => {
         </a>
       </li>
       <li>
-        <a href="/">
+        <a href="https://twitter.com/ETECSA_Cuba">
           <svg
             className="fill-current"
-            height={height}
-            width={width}
+            height={iconsH}
+            width={iconsW}
             viewBox="0 0 1000 1000"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -47,7 +45,7 @@ const Socials = () => {
                   className="st1"
                   style={{}}
                   d="M384 754c235.8 0 364.9-195.4 364.9-364.9 0-5.5 0-11.1-.4-16.6 25.1-18.2 46.8-40.6 64-66.4-23.4 10.4-48.2 17.2-73.6 20.2 26.8-16 46.8-41.2 56.4-70.9-25.2 14.9-52.7 25.5-81.4 31.1-48.6-51.6-129.8-54.1-181.4-5.6-33.3 31.3-47.4 78-37.1 122.5-103.1-5.2-199.2-53.9-264.3-134-34 58.6-16.7 133.5 39.7 171.2-20.4-.6-40.4-6.1-58.2-16v1.6c0 61 43 113.6 102.9 125.7-18.9 5.1-38.7 5.9-57.9 2.2 16.8 52.2 64.9 88 119.8 89.1-45.4 35.7-101.5 55.1-159.2 55-10.2 0-20.4-.6-30.5-1.9C246.1 734 314.4 754 384 753.9"
-                  fill="#3553B7"
+                  fill={color}
                 />
                 <path
                   className="st2"
@@ -61,11 +59,11 @@ const Socials = () => {
         </a>
       </li>
       <li>
-        <a href="/">
+        <a href="https://www.youtube.com/c/EtecsaCuba">
           <svg
             className="fill-current"
-            height={height}
-            width={width}
+            height={iconsH}
+            width={iconsW}
             viewBox="0 0 1000 1000"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -79,7 +77,7 @@ const Socials = () => {
                 className="st1"
                 style={{}}
                 d="M818.2 339.1c-7.6-28.8-30.1-51.4-58.7-59.1-51.8-14-259.4-14-259.4-14s-207.7 0-259.4 14c-28.6 7.7-51.1 30.3-58.7 59.1-14 52.1-14 160.9-14 160.9s0 108.8 13.9 160.9c7.6 28.8 30.1 51.4 58.7 59.1 51.8 14 259.4 14 259.4 14s207.7 0 259.4-14c28.6-7.7 51.1-30.3 58.7-59.1C832 608.8 832 500 832 500s0-108.8-13.8-160.9zM432.1 598.7V401.3L605.6 500l-173.5 98.7z"
-                fill="#3553B7"
+                fill={color}
               />
             </g>
           </svg>
