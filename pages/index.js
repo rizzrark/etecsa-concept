@@ -74,8 +74,8 @@ const cardData = [
   },
   {
     id: "portal-card",
-    imgH: "h-14",
-    imgW: "w-14",
+    imgH: "h-12",
+    imgW: "w-12",
     imgSrc: "/svg/portal.svg",
     cardHeader: "Poral MiCubacel",
     cardContent:
@@ -83,8 +83,8 @@ const cardData = [
   },
   {
     id: "espacio-card",
-    imgH: "h-14",
-    imgW: "w-14",
+    imgH: "h-12",
+    imgW: "w-12",
     imgSrc: "/svg/server.svg",
     cardHeader: "Espacio3W",
     cardContent: "Solicita un dominio nat.cu y paquetes de hospedaje web.",

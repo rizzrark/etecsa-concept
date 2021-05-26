@@ -9,7 +9,7 @@ const DocsIndex = ({ allDocsData }) => {
           <h1>My Blog</h1>
           <div className="flex flex-col flex-wrap mt-5">
             {allDocsData.map(({ slug, title, excerpt }) => (
-              <di className="" key={slug}>
+              <div className="" key={slug}>
                 <li className="flex">
                   <div>
                     <Link
@@ -26,7 +26,7 @@ const DocsIndex = ({ allDocsData }) => {
                     <div className="my-2">{excerpt}</div>
                   </div>
                 </li>
-              </di>
+              </div>
             ))}
           </div>
         </div>
