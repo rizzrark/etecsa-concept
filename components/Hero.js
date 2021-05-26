@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex justify-center lg:w-[50%] order-1 lg:order-2">
-        <img src="/webp/hero.png" className="self-center" />
+        <img src="/webp/hero.png" className="self-center" alt="hero image" />
       </div>
     </div>
   );
