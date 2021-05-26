@@ -1,6 +1,6 @@
 const Card = ({ imgH, imgW, imgSrc, cardHeader, cardData }) => {
   return (
-    <article className="flex items-center justify-between p-2 border border-gray-400 rounded-md shadow-md">
+    <article className="flex items-center p-2 border border-gray-400 rounded-md shadow-md">
       <img
         src={imgSrc}
         alt=""

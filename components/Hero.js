@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Hero = () => {
   return (
     <div className="flex flex-col w-full my-16 text-gray-700 lg:flex-row">
@@ -23,7 +24,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex justify-center lg:w-[50%] order-1 lg:order-2">
-        <img src="/webp/hero.png" className="self-center" alt="hero image" />
+        <Image
+          src="/webp/hero.png"
+          className="self-center"
+          alt="hero image"
+          width={530}
+          height={397}
+        />
       </div>
     </div>
   );
